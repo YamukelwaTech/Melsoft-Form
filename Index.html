@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Programming language Melsoft Acadamy Students & Faculty</title>
+</head>
+<!-- logo for melsoft with heading -->
+<img src="images/Blue-300x300.png" alt="logo" width="70" height="70" style="float:left; margin-right: 5px;"><br><span><h3>Survey form for the students and faculty of Melsoft Academy </h3></span>
+
+<body>
+    <br>
+    <!-- Form element with a post method -->
+    <form method="post">
+        <!-- Fieldset element -->
+    <fieldset>
+        <!-- Legend element labelled “Add user” -->
+        <legend>
+            Add User 
+        </legend>
+        <!-- Single-lined text input field for the first name -->
+        <!-- Single-lined text input field for the last name -->
+        <!-- Single-lined text input field for the email address -->
+    <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname">
+    <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname">
+    <label for="mailaddress">Email Address</label>
+        <input type="text" name="mailaddress" id="mailaddress">
+        <!-- Select the element labelled “Status” with three options: -->
+        <!-- Student -->
+        <!-- Teacher -->
+        <!-- Guest -->
+       <label for="users">Status</label>
+            <select name="users" id="users">
+                <option value="student">Student</option>
+                <option value="faculty">Faculty</option>
+                <option value="guest">Guest</option>
+             </select>
+             <!-- A <p> tag with the sentence “Choose your favourite programming language:” -->
+                <!-- A radio button with the label “HTML” -->
+                <!-- A radio button with the label “CSS” -->
+                <!-- A radio button with the label “JavaScript” -->
+        <p>Choose your favourite programming language:</p>
+          <input type="radio" name="language" id="HTML" value="HTML" 
+        <label for="HTML">HTML</label>
+          <input type="radio" name="language" id="CSS" value="CSS" 
+        <label for="CSS">CSS</label>
+          <input type="radio" name="language" id="JavaScript" value="JavaScript"
+        <label for="JavaScript">JavaScript</label>
+        <br><br>
+        <!-- A text area labelled “Comments” -->
+        <!-- Input element for the date labelled current date -->
+        <textarea name="textarea" rows="5" cols="99" placeholder="Comments"
+        ></textarea>
+        <br><br>
+        <label for="date">Current Date :</label>
+            <input type="date" value="2024-01-01" />
+        <br><br>
+         <!-- A checkbox input element labelled “Sign up for the newsletter” -->
+         <!-- A checkbox input element labelled “Agree to terms and conditions” -->
+         <!-- A submit button labelled “Submit” -->
+         <input type="checkbox" name="newsletter" id="newsletter"
+         <label for="newsletter">Sign up for the newsletter</label>
+         <input type="checkbox" name="terms" id="terms"
+         <label for="terms">Agree to terms and conditions</label>
+         <br><br>
+         <button name="button">Submit</button>
+
+    </fieldset>
+    </form>
+    
+</body>
+</html>
