@@ -6,5 +6,5 @@ This survey is a simple form aimed at discovering the preferred programming lang
 
 ## Survey Form
 
-Explore the survey form by opening the `survey_form.html` file in your web browser. Participate in the survey by selecting your favorite programming language and providing any additional comments.
+Explore the survey form by opening the `https://yamukelwatech.github.io/favourite-programming-language-form/` file in your web browser. Participate in the survey by selecting your favorite programming language and providing any additional comments.
 
